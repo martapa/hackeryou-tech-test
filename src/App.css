@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  margin-top: 15px;
+}
+.movie-details h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  color: #ff4822;
+  margin-top: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.movie-details {
+  background-color: #999999;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  z-index: -1;
+  padding-top: 5px;
+  position: fixed;
+  width: 100%;
+  line-height: 1.2;
+}
+
+.movie-column {
+  background-color: #ff4822;
+  text-align: center;
+  padding-top: 15px;
+}
+
+header {
+  background: #fff;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.giphy {
+  display: block;
+  margin: 0 auto;
+}
